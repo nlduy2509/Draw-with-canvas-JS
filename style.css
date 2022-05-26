@@ -1,0 +1,48 @@
+body{
+    height: 600px;
+    width: 800px;
+    display: flex;   
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.controller{
+    width: 100px;
+    flex: 1;
+}
+
+.tool{
+    width: 100px;
+}
+
+.color-packer{
+    height: 100px;
+    text-align: center;
+    color: rgb(165, 98, 98);
+    font-size: 150%;
+}
+
+#draw{
+    cursor: pointer;
+    border: 2px solid red;
+}
+
+#btn-clear{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+
+#btn-eraser{
+    margin-bottom: 5px;
+    margin-left: 5px;
+}
+b{
+    margin-left: 5px;
+}
+#num{
+    margin-left: 5px;   
+    width: 100px;
+}
+

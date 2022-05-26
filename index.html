@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./normalize.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>APP PAINT</title>
+</head>
+<body>
+    <div class="controller">
+        <div class="color-packer" style="background-color: red;">Red</div>
+        <div class="color-packer" style="background-color: yellow;">Yellow</div>
+        <div class="color-packer" style="background-color: green;">Green</div>
+        <div class="color-packer" style="background-color: black;">Black</div>
+        <div class="color-packer" style="background-color: orange;">Orange</div>
+        <div class="color-packer" style="background-color: blue;">Blue</div>
+    </div>
+    <canvas id="draw" height="600px" width="600px"></canvas>
+    <div class="tool">
+        <input type="button" value="Clear" id="btn-clear">
+        <input type="button" value="Eraser" id="btn-eraser">
+        <br>
+        <b>Độ to của nét</b>       
+        <input type="number" id="num" value="10">
+    </div>
+    
+
+    <script src="./script.js"></script>
+</body>
+</html>
